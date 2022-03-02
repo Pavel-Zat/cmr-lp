@@ -1,0 +1,12 @@
+.header__phone-square {
+    /* position: relative; */
+}
+
+.header__phone-square::before {
+    /* content: "\f096";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    box-sizing: border-box; */
+}
