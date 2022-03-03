@@ -8,6 +8,8 @@
     padding: 0;
 }
 
+
+
 @media all and (max-width: 500px) {
     .header__top {
         flex-direction: column;

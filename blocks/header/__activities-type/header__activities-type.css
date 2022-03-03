@@ -1,0 +1,8 @@
+.header__activities-type {
+
+}
+
+.header__activities-type:hover {
+    cursor: pointer;
+    color: rgb(230, 158, 65);
+}

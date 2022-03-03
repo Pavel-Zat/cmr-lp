@@ -1,0 +1,13 @@
+.header__address {
+    align-self: center;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(230, 158, 65);
+    text-shadow:-3px -3px 3px rgb(0 0 0 / 50%);
+}
+
+.header__address:hover {
+    cursor: crosshair;
+    color: white;
+}
