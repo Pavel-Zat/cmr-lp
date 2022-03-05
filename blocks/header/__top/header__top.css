@@ -1,5 +1,7 @@
 .header__top {
-    background-color: rgb(238, 149, 32);
+    background-color: #FF6C00	;
+    background-image: url(../../../images/rust-451324__340.jpg);
+    background-blend-mode: soft-light;
     display: flex;
     justify-content: space-around;
     align-items: center;

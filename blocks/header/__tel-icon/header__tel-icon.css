@@ -1,0 +1,23 @@
+.header__tel-icon {
+    width: 17px;
+    color: #034868;
+    }
+
+.header__tel-icon:hover {
+    animation: move 0.5s infinite linear;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+    /* background: green; */
+  }
+  50% {
+    transform: rotate(180deg);
+    border-radius: 50%;
+  }
+  100% {
+    transform: rotate(360deg);
+    /* background: yellow; */
+  }
+}

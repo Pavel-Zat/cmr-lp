@@ -1,6 +1,7 @@
-.header__heading {
+.cover__heading {
     margin: 0px;
     text-align: center;
     font-size: 28px;
     padding-top: 24px;
+    z-index: -1;
 }

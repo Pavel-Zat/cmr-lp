@@ -1,104 +1,115 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Цветметаллресурс</title>
-        <link rel="stylesheet" href="./pages/index.css">
-        <link rel="shortcut icon" href="./images/favicon.ico">
-    </head>
-    <body>
-        <div class="page">
-            <header class="header page__header">
-                <!-- <img class="header__logo" src="./images/logo_white_2_1.png" alt="логотип"> -->
-                <ul class="header__top">
-                    <li><img class="header__logo" src="./images/logo_5.png" alt="логотип"></li>
-                    <li class="header__tel">
-                        <a class="header__phone" href="tel:+74957770230">+7 (495) 777-02-30</a>
-                    </li>
-                    <li class="header__tel">
-                        <a class="header__phone"  href="tel:+79262780172">+7 (926) 278-01-72</a>
-                    </li>
-                    <li class="header__khimki-logo">
-                        <img class="header__khimki-img" src="./images/Логотип_Химки.png">
-                    </li>
-                </ul>
-                <!-- <img class="header__logo" src="./images/logo_white_2_1.png" alt="логотип"> -->
-                <div class="header__cover">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Цветметаллресурс</title>
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU&load=Geolink"
+ type="text/javascript"></script> -->
+</head>
+
+<body style="margin: 0px;">
+    <div class="page">
+        <header class="header page__header">
+            <ul class="header__top">
+                <li><img class="header__logo" src="./images/logo_5.png" alt="логотип"></li>
+                <li class="header__tel">
+                    <a class="header__phone" href="tel:+74957770230"><img class="header__tel-icon"
+                            src="./images/телефон_иконка.svg"> +7 (495) 777-02-30</a>
+                </li>
+                <li class="header__tel">
+                    <a class="header__phone" href="tel:+79262780172"><img class="header__tel-icon"
+                            src="./images/телефон_иконка.svg"> +7 (926) 278-01-72</a>
+                </li>
+                <li class="header__khimki-logo">
+                    <img class="header__khimki-img" src="./images/Логотип_Химки.png">
+                </li>
+            </ul>
+        </header>
+
+        <main class="content page__content">
+
+            <section class="cover">
+                <a class="cover__container" href="./images/texture-3319946__340.jpg" target="_blank">
                     <h4 class="header__heading">Приём лома цветных и чёрных металлов в Москве и Московской области</h4>
                     <div class="header__container">
                         <ul class="header__activities">
-                          <li class="header__activities-type">Демонтаж зданий и сооружений</li>
-                          <li class="header__activities-type">Утилизация промышленного оборудования</li>
-                          <li class="header__activities-type">Вывоз лома черных и цветных металлов</li>                        
+                            <li class="header__activities-type">Демонтаж зданий и сооружений</li>
+                            <li class="header__activities-type">Утилизация промышленного оборудования</li>
+                            <li class="header__activities-type">Вывоз лома черных и цветных металлов</li>
                         </ul>
-                        <h5 class="header__address">Химки, Коммунальный проезд, д.16</h5>
-                    </div>    
-                </div>
-            </header>
+                        <a href="https://yandex.ru/maps/10758/himki/?l=map&amp;ll=37.418140508716576%2C55.91413587659167&amp;mode=search&amp;oid=137133864726&amp;ol=biz&amp;source=wizgeo&amp;utm_medium=maps-desktop&amp;utm_source=serp&amp;where=37.420766%2C55.9141468&amp;z=17"
+                            class="bottp" target="_blank" rel="noopener noreferrer"><span
+                                style="font-size: medium;"><strong style="font-size: 18px; color: #FFFFFF;">Пункт приема
+                                    г. Химки, Коммунальный проезд, 16</strong><br></span></a>
+                        <!-- <h5 class="header__address" data-title="Геоссылка">Химки, Коммунальный проезд, д.16</h5> -->
+                        <!-- <span class="ymaps-geolink">
+                                <h5 class="header__address" data-title="Геоссылка">Химки, Коммунальный проезд, д.16</h5>
+                             </span> -->
+                    </div>
 
-            <main class="content page__content">
+            </section>
 
-                <section class="cover">
-                    
-                </section>
-
-                <section class="pricelist">
-                    <!-- <div style="height:20px; width:500px; border-top:1px solid #9EC1D4; border-bottom: dotted 1px #9EC1D4; margin: auto;">
+            <section class="pricelist">
+                <!-- <div style="height:20px; width:500px; border-top:1px solid #9EC1D4; border-bottom: dotted 1px #9EC1D4; margin: auto;">
                     Горизонтальная линия с помощью css.
                     </div> -->
-                    <table class="pricelist__table">
-                        <tr>
-                            <th colspan="2"> Цены на лом черных и цветных метталлов</th>
-                        </tr>
-                        <tr>
-                          <td>Медь блеск</td>
-                          <td>от 810 руб. за 1 кг</td>
-                          <!-- <td>Строка 1. Колонка 3.</td> -->
-                        </tr>
-                        <tr>
-                          <td>Алюминий профиль</td>
-                          <td>210 руб. за 1 кг</td>
-                          <!-- <td>Строка 2. Колонка 3.</td> -->
-                        </tr>
-                        <tr>
-                          <td>Лом черного металла</td>
-                          <td>26 руб. за 1 кг</td>
-                          <!-- <td>Строка 3. Колонка 3.</td> -->
-                        </tr>
-                      </table>
-                    
-                </section>
+                <table class="pricelist__table">
+                    <tr>
+                        <th colspan="2"> Цены на лом черных и цветных метталлов</th>
+                    </tr>
+                    <tr>
+                        <td>Медь блеск</td>
+                        <td>от 810 руб. за 1 кг</td>
+                        <!-- <td>Строка 1. Колонка 3.</td> -->
+                    </tr>
+                    <tr>
+                        <td>Алюминий профиль</td>
+                        <td>210 руб. за 1 кг</td>
+                        <!-- <td>Строка 2. Колонка 3.</td> -->
+                    </tr>
+                    <tr>
+                        <td>Лом черного металла</td>
+                        <td>26 руб. за 1 кг</td>
+                        <!-- <td>Строка 3. Колонка 3.</td> -->
+                    </tr>
+                </table>
 
-                <section class="why-me">
-                    
-                </section>
-                
-                        
-            </main>
+            </section>
 
-            <footer class="footer page__footer">
-                <div class="footer__feedback">
-                    <nav class="footer__feedback-column">
-                        <h6 class="footer__feedback-heading">Отзывы о нашей работе</h6>
-                        <ul class="footer__feedback-links">
-                            <li><a class="footer__feedback-link" href="#">Danon</a></li>
-                            <li><a class="footer__feedback-link" href="#">IKEA_Khimki</a></li>
-                            <li><a class="footer__feedback-link" href="#">Robert Bosh</a></li>
-                        </ul>
-                    </nav>
-                    <div class="footer__activities">
-                        <h6 class="footer__activities-heading">About company</h6>
-                        <ul class="footer__activities-types">
-                            <li class="footer__activities-type">Презентация PDF</li>
-                            <li class="footer__activities-type">Документы и лицензии</li>
-                            <li class="footer__activities-type">Реквизиты</li>
-                            <li class="footer__activities-type">Фото Блог</li>
-                        </ul>
-                    </div>
+            <section class="why-me">
+
+            </section>
+
+
+        </main>
+
+        <footer class="footer page__footer">
+            <div class="footer__feedback">
+                <nav class="footer__feedback-column">
+                    <h6 class="footer__feedback-heading">Отзывы о нашей работе</h6>
+                    <ul class="footer__feedback-links">
+                        <li><a class="footer__feedback-link" href="#">Danon</a></li>
+                        <li><a class="footer__feedback-link" href="#">IKEA_Khimki</a></li>
+                        <li><a class="footer__feedback-link" href="#">Robert Bosh</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__activities">
+                    <h6 class="footer__activities-heading">About company</h6>
+                    <ul class="footer__activities-types">
+                        <li class="footer__activities-type">Презентация PDF</li>
+                        <li class="footer__activities-type">Документы и лицензии</li>
+                        <li class="footer__activities-type">Реквизиты</li>
+                        <li class="footer__activities-type">Фото Блог</li>
+                    </ul>
                 </div>
-            </footer>
-        </div>
-    </body>
-</html>
+            </div>
+        </footer>
+    </div>
 
+</body>
+
+</html>
