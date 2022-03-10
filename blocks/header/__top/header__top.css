@@ -6,8 +6,9 @@
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
+    width: 1184px;
 }
 
 

@@ -1,3 +1,31 @@
 .cover {
-    
+  background-image: url(../../../images/texture-3319946__340.jpg);
+  max-width: 1184px;
+  min-height: 400px;
+  background-size: contain;
+  color: white;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+  margin: auto;
+  position: relative;
+  /*cursor: pointer;*/
+  z-index: 1;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
 }
