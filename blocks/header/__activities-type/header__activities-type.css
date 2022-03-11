@@ -4,10 +4,11 @@
 }
 
 .header__activities-type:hover {
-    cursor: pointer;
+    /* cursor: pointer; */
     color: rgb(230, 158, 65);
     transform: rotate(45deg); /* Equal to rotateZ(45deg) */
     background-color: pink;
+    z-index: 2;
 }
 
 .header__activities-type:before {

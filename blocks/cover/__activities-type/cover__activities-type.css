@@ -1,0 +1,38 @@
+.cover__activities-type {
+    color: white;
+    padding: 0px 0px 10px 32px;
+    background: url("../../../images/шестерня_иконка_small.svg") 0 0 no-repeat ;
+}
+
+.cover__activities-type:before {
+    /* content:"\2672"; */
+    content: " ";
+    color: #FF6C00;
+    width: 16px;
+    height: 16px;
+    margin: 0px 16px 2px -32px;
+    display: inline-block;
+    animation: move 0.5s infinite linear;
+    /* background: url('../../../images/шестерня_иконка_small.svg') center no-repeat; */
+ }
+ .cover__activities-type:hover {
+    cursor: pointer;
+    color: rgb(230, 158, 65);
+    /* transform: rotate(45deg); Equal to rotateZ(45deg) */
+    /* background-color: pink; */
+}
+
+@keyframes move {
+    0% {
+      transform: rotate(0deg);
+      /* background: green; */
+    }
+    50% {
+      transform: rotate(180deg);
+      border-radius: 50%;
+    }
+    100% {
+      transform: rotate(360deg);
+      /* background: yellow; */
+    }
+  }

@@ -3,6 +3,7 @@
     /* object-fit: cover; */
     /* box-sizing: content-box; */
     /* block-size: auto; */
+    color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,8 +16,4 @@
     /* opacity: 1; */
     /* transition: all ease-in-out 0.5s ; */
     z-index: 1;
-}
-
-.cover__container:hover {
-    /* opacity: 0.5; */
 }
