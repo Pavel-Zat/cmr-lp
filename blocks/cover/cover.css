@@ -1,6 +1,7 @@
 .cover {
   background-image: url(../../images/texture1.jpg);
-  max-width: 1184px;
+  background-repeat: repeat;
+  /* max-width: 1184px; */
   min-height: 400px;
   background-size: contain;
   color: white;

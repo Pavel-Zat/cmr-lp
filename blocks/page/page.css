@@ -1,6 +1,10 @@
 .page {
-  background-color: #2A2C2F;
+  background-color: #2a2c2f;
   color: #ffffff;
   margin: 0;
-  font-family: 'Inter', Helvetica, sans-serif;
-  }
+  font-family: "Inter", Helvetica, sans-serif;
+}
+[class*="__container"] {
+  margin: 0 auto;
+  max-width: 1050px;
+}

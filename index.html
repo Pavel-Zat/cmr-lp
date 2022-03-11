@@ -12,24 +12,26 @@
 
 <body style="margin: 0px;">
     <div class="page">
-        <header class="header page__header">
-            <ul class="header__top">
-                <li><img class="header__logo" src="./images/logo_5.png" alt="логотип"></li>
-                <li class="header__tel">
-                    <a class="header__phone" href="tel:+74957770230"><img class="header__tel-icon"
-                            src="./images/телефон_иконка.svg"> +7 (495) 777-02-30</a>
-                </li>
-                <li class="header__tel">
-                    <a class="header__phone" href="tel:+79262780172"><img class="header__tel-icon"
-                            src="./images/телефон_иконка.svg"> +7 (926) 278-01-72</a>
-                </li>
-                <li class="header__khimki-logo">
-                    <img class="header__khimki-img" src="./images/Логотип_Химки.png">
-                </li>
-            </ul>
+        <header class="header">
+            <div class="header__container">
+                <ul class="header__top">
+                    <li><img class="header__logo" src="./images/logo_5.png" alt="логотип"></li>
+                    <li class="header__tel">
+                        <a class="header__phone" href="tel:+74957770230"><img class="header__tel-icon"
+                                src="./images/телефон_иконка.svg"> +7 (495) 777-02-30</a>
+                    </li>
+                    <li class="header__tel">
+                        <a class="header__phone" href="tel:+79262780172"><img class="header__tel-icon"
+                                src="./images/телефон_иконка.svg"> +7 (926) 278-01-72</a>
+                    </li>
+                    <li class="header__khimki-logo">
+                        <img class="header__khimki-img" src="./images/Логотип_Химки.png">
+                    </li>
+                </ul>
+            </div>
         </header>
 
-        <main class="content page__content">
+        <main class="content">
 
             <section class="cover">
                 <div class="cover__container">
@@ -54,7 +56,17 @@
                     </div> -->
                 <table class="pricelist__table">
                     <tr>
-                        <th colspan="2"> Цены на лом черных и цветных метталлов</th>
+                        <th colspan="2"> Цены на лом черных и цветных металлов
+                            <script language="javascript" type="text/javascript">
+                                const d = new Date();
+
+                                const month = new Array("января", "февраля", "марта", "апреля", "мая", "июня",
+                                    "июля", "августа", "сентября", "октября", "ноября", "декабря");
+
+                                document.write(d.getDate() + " " + month[d.getMonth()]
+                                    + " " + d.getFullYear() + " г.");
+                            </script>
+                        </th>
                     </tr>
                     <tr>
                         <td>Медь блеск</td>
@@ -107,6 +119,10 @@
                     </ul>
                 </div>
             </div>
+            <p class="footer__copyright">&copy; <script language="javascript" type="text/javascript">
+                const c = new Date();
+                document.write(c.getFullYear());
+            </script> ООО Цветметаллресурс</p>
         </footer>
     </div>
 

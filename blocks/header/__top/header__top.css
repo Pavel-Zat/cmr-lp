@@ -1,21 +1,16 @@
 .header__top {
-    background-color: #FF6C00	;
-    background-image: url(../../../images/rust-451324__340.jpg);
-    background-blend-mode: soft-light;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    width: 1184px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  max-width: 1184px;
 }
 
-
-
 @media all and (max-width: 500px) {
-    .header__top {
-        flex-direction: column;
-        align-items: center;
-    }    
-}    
+  .header__top {
+    flex-direction: column;
+    align-items: center;
+  }
+}
