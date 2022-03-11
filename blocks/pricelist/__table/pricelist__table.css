@@ -1,15 +1,16 @@
 .pricelist__table {
     display: flex;
-    align-self: center;
-    padding-top: 50px;
+    align-self: flex-start;
+    /* padding-top: 50px; */
 }
 
 .pricelist__table th {
     font-size: 22px;
     line-height: 32px;
     color: #FF6C00	;
-    background-color: rgb(60, 61, 63);
+    background-color: rgb(60, 61, 63, 0.5);
     width: 700px;
+    text-align: left;
 }
 
 .pricelist__table td {

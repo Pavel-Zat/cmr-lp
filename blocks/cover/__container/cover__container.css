@@ -5,12 +5,12 @@
     /* block-size: auto; */
     color: whitesmoke;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* flex-direction: ; */
+    justify-content: space-between;
+    align-items: flex-start;
     text-decoration: none;
     /* width: 100%; */
-    min-height: 500px;
+    min-height: 400px;
     text-decoration: none;
     /* cursor: pointer; */
     /* opacity: 1; */

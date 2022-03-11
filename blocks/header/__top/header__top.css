@@ -6,6 +6,8 @@
   margin: auto;
   padding: 0;
   max-width: 1184px;
+  min-height: 91px;
+}
 }
 
 @media all and (max-width: 500px) {
