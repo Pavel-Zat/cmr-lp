@@ -33,6 +33,13 @@
 @import url(../blocks/feedback/__container/feedback__container.css);
 @import url(../blocks/feedback/__heading/feedback__heading.css);
 @import url(../blocks/feedback/__subheading/feedback__subheading.css);
+@import url(../blocks/feedback/__card/feedback__card.css);
+@import url(../blocks/feedback/__cards/feedback__cards.css);
+@import url(../blocks/feedback/__card-block/feedback__card-block.css);
+@import url(../blocks/feedback/__link/feedback__link.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__text/feedback__text.css);
+@import url(../blocks/feedback/__picture/feedback__picture.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
