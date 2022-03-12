@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap">
     <title>Цветметаллресурс</title>
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="shortcut icon" href="./images/favicon.ico">
@@ -17,16 +18,16 @@
         <header class="header">
             <div class="header__container">
                 <ul class="header__top">
-                    <li><img class="header__logo" src="./images/logo_5.png" alt="логотип"></li>
+                    <li><img class="header__logo" src="./images/logo_white_2_1.png" alt="логотип"></li>
                     <li class="header__tel">
                         <a class="header__phone" href="tel:+74957770230"><img class="header__tel-icon"
-                                src="./images/телефон_иконка.svg"> +7 (495) 777-02-30</a>
+                                src="./images/phone_call.png"> +7 (495) 777-02-30</a>
                     </li>
                     <li class="header__tel">
                         <a class="header__phone" href="tel:+79262780172"><img class="header__tel-icon"
-                                src="./images/телефон_иконка.svg"> +7 (926) 278-01-72</a>
+                                src="./images/phone_call.png"> +7 (926) 278-01-72</a>
                     </li>
-                    <li><img class="header__khimki-logo" src="./images/Логотип_Химки.png"></li>
+                    <li><img class="header__khimki-logo" src="./images/Логотип_Химки_Orange.png"></li>
                 </ul>
             </div>
         </header>
@@ -151,27 +152,31 @@
                     <h3 class="feedback__heading">Отзывы о нашей работе</h3>
                     <h4 class="feedback__subheading">Работаем с 2004 года. Lorem ipsum dolor sit amet, consectetuer
                         adipiscing elit.</h4>
-                    <ul class="feedback__cards">
-                        <li><a class="feedback__card" href="#">Danon</a></li>
-                        <li><a class="feedback__card" href="#">IKEA_Khimki</a></li>
-                        <li><a class="feedback__card" href="#">Robert Bosch</a></li>
-                    </ul>
+                    <div class="feedback__cards">
+                        <div class="feedback__card-block">
+                            <div class="feedback__card">Danon</div>
+                            <div class="feedback__card">IKEA_Khimki</div>
+                            <div class="feedback__card">Robert Bosch</div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
 
+
+
+
+
         <footer class="footer page__footer">
-            <div class="footer__container">
-                <h3 class="footer__activities-heading">About company</h3>
-                <nav class="footer__activities">
-                    <ul class="footer__activities-types">
-                        <li class="footer__activities-type">Презентация PDF</li>
-                        <li class="footer__activities-type">Документы и лицензии</li>
-                        <li class="footer__activities-type">Реквизиты</li>
-                        <li class="footer__activities-type">Фото Блог</li>
-                    </ul>
+            <!-- <div class="footer__container"> -->
+                <nav class="footer__nav">
+                    <a class="footer__link" href="#" target="_blank">Реквизиты</a>
+                    <a class="footer__link" href="#" target="_blank">Лицензии</a>
+                    <a class="footer__link" href="#" target="_blank">Документы</a>
+                    <a class="footer__link" href="#" target="_blank">Презентация</a>
+                    <a class="footer__link" href="#" target="_blank">Фото Блог</a>
                 </nav>
-            </div>
+            <!-- </div> -->
             <p class="footer__copyright">&copy;
                 <script language="javascript" type="text/javascript">
                     const c = new Date();
@@ -179,6 +184,8 @@
                 </script> ООО Цветметаллресурс
             </p>
         </footer>
+
+
     </div>
 
 </body>

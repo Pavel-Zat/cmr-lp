@@ -1,0 +1,14 @@
+.footer__nav {
+  display: grid;
+  grid-template-columns: 84px 77px 90px 100px 81px;
+  grid-template-rows: repeat(1, 18px);
+  gap: 18px;
+}
+@media all and (max-width: 767px) {
+  .footer__nav {
+    grid-template-columns: 158px;
+    grid-template-rows: repeat(5, 24px);
+    gap: 32px;
+    padding: 64px 0 48px 16px;
+  }
+}

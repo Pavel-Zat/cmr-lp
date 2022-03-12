@@ -1,0 +1,9 @@
+.feedback__heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 142%;
+    margin: 0px;
+    text-align: center;
+    padding: 60px 0px 0px 15px;
+}

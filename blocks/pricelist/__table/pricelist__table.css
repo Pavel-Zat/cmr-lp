@@ -32,7 +32,7 @@
 }
 
 .pricelist__table tr:nth-child(even) {
-  background-color: rgb(60, 61, 63, 0.8);
+  background-color: rgb(60, 61, 63, 0.6);
 }
 
 @media all and (max-width: 850px) {
