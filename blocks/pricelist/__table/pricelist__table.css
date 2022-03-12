@@ -40,3 +40,9 @@
     text-align: center;
   }
 }
+
+@media all and (max-width: 768px) {
+  .pricelist__table {
+    padding-bottom: 15px;
+  }
+}

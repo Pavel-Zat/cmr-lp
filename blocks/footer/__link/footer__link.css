@@ -9,10 +9,20 @@
   cursor: pointer;
 }
 
-.footer__link:hover {
+.footer__link:first-child {
   color: #ff6c00;
   /* opacity: 0.9; */
 }
+
+.footer__link:first-child:hover {
+    color: whitesmoke;
+    /* opacity: 0.9; */
+  }
+
+.footer__link:hover {
+    color: #ff6c00;
+    /* opacity: 0.9; */
+  }
 
 @media all and (max-width: 767px) {
   .footer__link {
