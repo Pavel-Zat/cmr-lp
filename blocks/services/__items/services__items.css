@@ -1,0 +1,13 @@
+.services__items {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+}
+@media (min-width: 670px) {
+  .services__items {
+    padding: 0 15px;
+  }
+}
