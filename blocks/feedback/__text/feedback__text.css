@@ -1,3 +1,6 @@
 .feedback__text {
-    
+    color: whitesmoke;;
 }
+/* .feedback__text:nth-last-child(even) {
+    color: whitesmoke;
+} */

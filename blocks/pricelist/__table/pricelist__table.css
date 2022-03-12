@@ -3,13 +3,14 @@
   align-self: flex-start;
   max-width: 525px;
   border-collapse: collapse;
+  color: whitesmoke;
   /* padding-top: 50px; */
 }
 
 .pricelist__table th {
   font-size: 22px;
   line-height: 32px;
-  color: #ff6c00;
+  color: #ff7b47;
   /* background-color: none; */
   max-width: 525px;
   text-align: left;

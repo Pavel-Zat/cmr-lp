@@ -6,7 +6,7 @@
     min-height: 185px;
 }
 .services__item:last-child {
-    background-color: #537889;
+    background-color: #0D5C63;
     color: black;
 }
 @media (max-width: 450px) {

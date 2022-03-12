@@ -10,7 +10,7 @@
 }
 
 .footer__link:first-child {
-  color: #ff6c00;
+  color: #ff7b47;
   /* opacity: 0.9; */
 }
 
@@ -20,7 +20,7 @@
   }
 
 .footer__link:hover {
-    color: #ff6c00;
+    color: #ff7b47;
     /* opacity: 0.9; */
   }
 
