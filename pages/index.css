@@ -19,3 +19,6 @@
 @import url(../blocks/cover/__heading/cover__heading.css);
 @import url(../blocks/cover/__activities/cover__activities.css);
 @import url(../blocks/cover/__activities-type/cover__activities-type.css);
+@import url(../blocks/cover/__iframe/cover__iframe.css);
+@import url(../blocks/cover/__address/cover__address.css);
+@import url(../blocks/cover/__map/cover__map.css);

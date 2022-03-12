@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap">
     <title>Цветметаллресурс</title>
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="shortcut icon" href="./images/favicon.ico">
@@ -25,9 +26,7 @@
                         <a class="header__phone" href="tel:+79262780172"><img class="header__tel-icon"
                                 src="./images/телефон_иконка.svg"> +7 (926) 278-01-72</a>
                     </li>
-                    <li class="header__khimki-logo">
-                        <img class="header__khimki-img" src="./images/Логотип_Химки.png">
-                    </li>
+                    <li><img class="header__khimki-logo" src="./images/Логотип_Химки.png"></li>
                 </ul>
             </div>
         </header>
@@ -37,7 +36,6 @@
             <section class="cover">
                 <h1 class="cover__heading">Приём лома цветных и чёрных металлов</h1>
                 <div class="cover__container">
-                    <!-- <h1 class="cover__heading">Приём лома цветных и чёрных металлов</h1> -->
                     <table class="pricelist__table">
                         <tr>
                             <th colspan="2"> Цены на металл
@@ -48,7 +46,7 @@
                                         "июля", "августа", "сентября", "октября", "ноября", "декабря");
 
                                     document.write(b.getDate() + " " + month1[b.getMonth()]
-                                        + " " + b.getFullYear() + " г.");
+                                        + " " + b.getFullYear());
                                 </script>
                             </th>
                         </tr>
@@ -104,10 +102,12 @@
                         </tr>
                     </table>
                     <div class="cover__map">
-                        <p class="cover__address">Наш адрес: Химки, Коммунальный проезд, 16</p>
-                        <iframe class="cover__iframe" src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=1628826794"
-                            width="420" height="300" frameborder="1">
-                        </iframe>
+                        <p class="cover__address">Химки, Коммунальный проезд, 16</p>
+                        <div class="cover__iframe">
+                            <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=1628826794" width="420"
+                                height="250" frameborder="">
+                            </iframe>
+                        </div>
                     </div>
                     <!-- <ul class="cover__activities">
                         <li class="cover__activities-type">Демонтаж зданий и сооружений</li>
@@ -115,15 +115,13 @@
                         <li class="cover__activities-type">Вывоз лома черных и цветных металлов</li>
                     </ul> -->
                 </div>
-                <ul class="cover__activities">
-                    <li class="cover__activities-type">Демонтаж зданий и сооружений</li>
-                    <li class="cover__activities-type">Утилизация промышленного оборудования</li>
-                    <li class="cover__activities-type">Вывоз лома черных и цветных металлов</li>
-                </ul>
             </section>
 
             <section class="services">
                 <div class="services__container">
+                    <h3 class="services__heading">Виды деятельности</h3>
+                    <h4 class="services__subheading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                        commodo ligula eget dolor. Aenean massa.</h4>
                     <ul class="services__block">
                         <li class="services__item">Демонтаж зданий и сооружений</li>
                         <li class="services__item">Утилизация промышленного оборудования</li>
@@ -131,75 +129,36 @@
                     </ul>
                 </div>
             </section>
-
-            <section class="pricelist">
-                <!-- <div style="height:20px; width:500px; border-top:1px solid #9EC1D4; border-bottom: dotted 1px #9EC1D4; margin: auto;">
+            <!-- <div style="height:20px; width:500px; border-top:1px solid #9EC1D4; border-bottom: dotted 1px #9EC1D4; margin: auto;">
                     Горизонтальная линия с помощью css.
                     </div> -->
-                <table class="pricelist__table">
-                    <tr>
-                        <th colspan="2"> Цены на лом черных и цветных металлов
-                            <script language="javascript" type="text/javascript">
-                                const d = new Date();
 
-                                const month = new Array("января", "февраля", "марта", "апреля", "мая", "июня",
-                                    "июля", "августа", "сентября", "октября", "ноября", "декабря");
 
-                                document.write(d.getDate() + " " + month[d.getMonth()]
-                                    + " " + d.getFullYear() + " г.");
-                            </script>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>Медь блеск</td>
-                        <td>от 810 руб. за 1 кг</td>
-                        <!-- <td>Строка 1. Колонка 3.</td> -->
-                    </tr>
-                    <tr>
-                        <td>Алюминий профиль</td>
-                        <td>210 руб. за 1 кг</td>
-                        <!-- <td>Строка 2. Колонка 3.</td> -->
-                    </tr>
-                    <tr>
-                        <td>Лом черного металла</td>
-                        <td>26 руб. за 1 кг</td>
-                        <!-- <td>Строка 3. Колонка 3.</td> -->
-                    </tr>
-                    <tr>
-                        <td>Лом черного металла</td>
-                        <td>26 руб. за 1 кг</td>
-                        <!-- <td>Строка 3. Колонка 3.</td> -->
-                    </tr>
-                </table>
-
+            <section class="feedback">
+                <div class="feedback__container">
+                    <h3 class="feedback__heading">Отзывы о нашей работе</h3>
+                    <h4 class="feedback__subheading">Работаем с 2004 года. Lorem ipsum dolor sit amet, consectetuer
+                        adipiscing elit.</h4>
+                    <ul class="feedback__cards">
+                        <li><a class="feedback__card" href="#">Danon</a></li>
+                        <li><a class="feedback__card" href="#">IKEA_Khimki</a></li>
+                        <li><a class="feedback__card" href="#">Robert Bosch</a></li>
+                    </ul>
+                </div>
             </section>
-
-            <section class="why-me">
-
-            </section>
-
-
         </main>
 
         <footer class="footer page__footer">
-            <div class="footer__feedback">
-                <nav class="footer__feedback-column">
-                    <h6 class="footer__feedback-heading">Отзывы о нашей работе</h6>
-                    <ul class="footer__feedback-links">
-                        <li><a class="footer__feedback-link" href="#">Danon</a></li>
-                        <li><a class="footer__feedback-link" href="#">IKEA_Khimki</a></li>
-                        <li><a class="footer__feedback-link" href="#">Robert Bosch</a></li>
-                    </ul>
-                </nav>
-                <div class="footer__activities">
-                    <h6 class="footer__activities-heading">About company</h6>
+            <div class="footer__container">
+                <h3 class="footer__activities-heading">About company</h3>
+                <nav class="footer__activities">
                     <ul class="footer__activities-types">
                         <li class="footer__activities-type">Презентация PDF</li>
                         <li class="footer__activities-type">Документы и лицензии</li>
                         <li class="footer__activities-type">Реквизиты</li>
                         <li class="footer__activities-type">Фото Блог</li>
                     </ul>
-                </div>
+                </nav>
             </div>
             <p class="footer__copyright">&copy;
                 <script language="javascript" type="text/javascript">

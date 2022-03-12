@@ -1,0 +1,11 @@
+.cover__address {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #ff6c00;
+  /* background-color: rgb(60, 61, 63, 0.1); */
+  max-width: 525px;
+  text-align: left;
+  margin: 0px;
+  padding-bottom: 10px;
+}

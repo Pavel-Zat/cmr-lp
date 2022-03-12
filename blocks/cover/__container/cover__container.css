@@ -1,19 +1,25 @@
 .cover__container {
-    /* background-image: url(../../../images/texture-3319946__340.jpg); */
-    /* object-fit: cover; */
-    /* box-sizing: content-box; */
-    /* block-size: auto; */
-    color: whitesmoke;
-    display: flex;
-    /* flex-direction: ; */
-    justify-content: space-between;
-    align-items: flex-start;
-    text-decoration: none;
-    /* width: 100%; */
-    min-height: 400px;
-    text-decoration: none;
-    /* cursor: pointer; */
-    /* opacity: 1; */
-    /* transition: all ease-in-out 0.5s ; */
-    z-index: 1;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-decoration: none;
+  min-height: 350px;
+  text-decoration: none;
+  z-index: 1;
+  /* flex-wrap: wrap; */
 }
+@media all and (max-width: 850px) {
+    .cover__container {
+      flex-wrap: wrap;
+      /* align-items: center; */
+      justify-content: center;
+    }
+  }
+  @media all and (max-width: 768px) {
+    .cover__container {
+      flex-wrap: wrap;
+      /* align-items: center; */
+      justify-content: center;
+    }
+  }

@@ -1,3 +1,8 @@
 .cover__map {
-    
+    padding-left: 0px;
 }
+@media all and (max-width: 850px) {
+    .cover__map {
+      padding-left: 5px;
+    }
+  }

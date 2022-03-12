@@ -1,3 +1,9 @@
 .header__khimki-logo {
-    width: auto;
+    max-width: 270px;
+    max-height: 75px;
+}
+@media screen and (max-width: 1024px) {
+    .header__khimki-logo {   
+      max-width: 240px;    
+    }
 }
