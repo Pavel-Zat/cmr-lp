@@ -1,13 +1,15 @@
 .header__tel-icon {
     width: 20px;
     filter: brightness(0) invert(1);
+    transition: all .2s ease-in-out;
     }
 
 .header__tel-icon:hover {
-    animation: move 0.5s infinite linear;
+    /* animation: move 0.5s infinite linear; */
+    transform: scale(1.5);
 }
 
-@keyframes move {
+/* @keyframes move {
   0% {
     transform: rotate(0deg);
     filter: brightness(1.5);
@@ -21,4 +23,4 @@
     transform: rotate(360deg);
     filter: brightness(1.5);
   }
-}
+} */
