@@ -1,4 +1,9 @@
 .feedback__title {
     text-decoration: none;
-    color: whitesmoke;;
+    color: whitesmoke;
+    transition: 0.25s;
+}
+.feedback__title:hover {
+    transform: scale(1.125);
+    color: #ff7b47;
 }

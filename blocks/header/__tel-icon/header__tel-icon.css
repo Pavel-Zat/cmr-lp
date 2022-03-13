@@ -10,14 +10,15 @@
 @keyframes move {
   0% {
     transform: rotate(0deg);
-    /* background: green; */
+    filter: brightness(1.5);
   }
   50% {
     transform: rotate(180deg);
     border-radius: 50%;
+    filter: brightness(1.5);
   }
   100% {
     transform: rotate(360deg);
-    /* background: yellow; */
+    filter: brightness(1.5);
   }
 }
