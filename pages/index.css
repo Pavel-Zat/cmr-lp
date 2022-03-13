@@ -12,6 +12,7 @@
 @import url(../blocks/header/__tel/header__tel.css);
 @import url(../blocks/header/__tel-icon/header__tel-icon.css);
 @import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/pricelist/pricelist.css);
 @import url(../blocks/pricelist/__table/pricelist__table.css);
 @import url(../blocks/cover/cover.css);
