@@ -1,6 +1,6 @@
 .header__logo {
   max-width: 270px;
-  filter: brightness(0.95) contrast(85%);
+  filter: brightness(0.95) contrast(90%);
 }
 @media screen and (max-width: 1024px) {
   .header__logo {
