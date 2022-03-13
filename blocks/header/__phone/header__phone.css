@@ -1,19 +1,20 @@
 .header__phone {
-    max-width: 270px;
-    color: whitesmoke; 
-    font-size: 24px; 
-    text-decoration: none; 
-    font-weight: 600;
+  max-width: 270px;
+  color: whitesmoke;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 600;
 }
+
 @media screen and (max-width: 950px) {
-    .header__phone {   
-      font-size: 22px;
-      font-weight: 600;    
-    }
+  .header__phone {
+    font-size: 22px;
+    font-weight: 600;
+  }
 }
 @media screen and (max-width: 768px) {
-  .header__phone {   
+  .header__phone {
     font-size: 20px;
-    font-weight: 600;    
+    font-weight: 600;
   }
 }

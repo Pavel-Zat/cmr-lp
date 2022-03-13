@@ -1,6 +1,6 @@
 .header__tel-icon {
     width: 20px;
-    color: whitesmoke;
+    filter: brightness(0) invert(1);
     }
 
 .header__tel-icon:hover {
