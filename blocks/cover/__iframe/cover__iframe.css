@@ -4,6 +4,7 @@
     /* height: 100%; */
     /* min-width: 80%; */
     margin: 0 auto;
+    filter: brightness(0.9) contrast(95%);
 }
 .cover__iframe iframe,
 .cover__iframe object,
