@@ -31,6 +31,7 @@
 @import url(../blocks/services/__items/services__items.css);
 @import url(../blocks/services/__item-img/services__item-img.css);
 @import url(../blocks/services/__item-text/services__item-text.css);
+@import url(../blocks/services/__item-title/services__item-title.css);
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__container/feedback__container.css);
 @import url(../blocks/feedback/__heading/feedback__heading.css);

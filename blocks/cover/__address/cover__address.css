@@ -13,5 +13,6 @@
   .cover__address {
     font-size: 18px;
     text-align: center;
+    padding-left: 0px;
   }
 }

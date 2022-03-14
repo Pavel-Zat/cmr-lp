@@ -1,3 +1,9 @@
 .services__item-text {
-    color: whitesmoke;
+    font-size: 16px;
 }
+
+@media all and (max-width: 850px) {
+    .services__item-text {
+      font-size: 14px;
+    }
+  }
