@@ -1,5 +1,7 @@
 .feedback__text {
-    color: whitesmoke;;
+    color: whitesmoke;
+    margin: 0;
+    padding: 21px 0px;
 }
 /* .feedback__text:nth-last-child(even) {
     color: whitesmoke;

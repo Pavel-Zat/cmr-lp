@@ -4,7 +4,7 @@
   max-width: 525px;
   border-collapse: collapse;
   color: whitesmoke;
-  /* padding-top: 50px; */
+  padding-right: 10px;
 }
 
 .pricelist__table th {

@@ -2,6 +2,7 @@
     text-decoration: none;
     color: whitesmoke;
     transition: 0.25s;
+    margin: 0;
 }
 .feedback__title:hover {
     transform: scale(1.125);
