@@ -1,3 +1,4 @@
 .feedback__link {
     text-decoration: none;
+    display: inline-block;
 }

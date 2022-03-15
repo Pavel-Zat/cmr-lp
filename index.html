@@ -124,20 +124,32 @@
                     <h4 class="services__subheading">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                         commodo ligula eget dolor. Aenean massa.</h4>
                     <div class="services__items">
-                        <div class="services__item">
-                            <button class="services__button" type="button"><img class="services__item-img" src="./images/шестерня_иконка_small.svg"></button>
-                            <h4 class="services__item-title">Утилизация промышленного оборудования</h4>
-                            <p class="services__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        <div class="services__item-block">
+                            <div class="services__item">
+                                <button class="services__button" type="button"><img class="services__item-img"
+                                        src="./images/шестерня_иконка_small.svg"></button>
+                                <h4 class="services__item-title">Утилизация промышленного оборудования</h4>
+                                <p class="services__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                </p>
+                            </div>
                         </div>
-                        <div class="services__item">
-                            <button class="services__button" type="button"><img class="services__item-img" src="./images/шестерня_иконка_small.svg"></button>
-                            <h4 class="services__item-title">Вывоз лома черных и цветных металлов</h4>
-                            <p class="services__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        <div class="services__item-block">
+                            <div class="services__item">
+                                <button class="services__button" type="button"><img class="services__item-img"
+                                        src="./images/шестерня_иконка_small.svg"></button>
+                                <h4 class="services__item-title">Вывоз лома черных и цветных металлов</h4>
+                                <p class="services__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                </p>
+                            </div>
                         </div>
-                        <div class="services__item">
-                            <button class="services__button services__button_another-color" type="button"><img class="services__item-img" src="./images/шестерня_иконка_small.svg"></button>
-                            <h4 class="services__item-title">Демонтаж зданий и сооружений</h4>
-                            <p class="services__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        <div class="services__item-block">
+                            <div class="services__item services__item_green">
+                                <button class="services__button services__button_another-color" type="button"><img
+                                        class="services__item-img" src="./images/шестерня_иконка_small.svg"></button>
+                                <h4 class="services__item-title">Демонтаж зданий и сооружений</h4>
+                                <p class="services__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -186,29 +198,30 @@
         </main>
 
         <footer class="footer page__footer">
-            <!-- <div class="footer__container"> -->
-            <nav class="footer__nav">
-                <a class="footer__link" href="../cmr-lp/requisites.html" target="_blank">Реквизиты</a>
-                <a class="footer__link" href="#" target="_blank">Лицензии</a>
-                <a class="footer__link" href="#" target="_blank">Документы</a>
-                <a class="footer__link" href="#" target="_blank">Презентация</a>
-                <a class="footer__link" href="#" target="_blank">Фото Блог</a>
-            </nav>
-            <!-- </div> -->
-            <p class="footer__copyright">&copy;
-                <script language="javascript" type="text/javascript">
-                    const c = new Date();
-                    document.write(c.getFullYear());
-                </script> Цветметаллресурс
-            </p>
+            <div class="footer__container">
+                <nav class="footer__nav">
+                    <a class="footer__link" href="../cmr-lp/requisites.html" target="_blank">Реквизиты</a>
+                    <a class="footer__link" href="#" target="_blank">Лицензии</a>
+                    <a class="footer__link" href="#" target="_blank">Документы</a>
+                    <a class="footer__link" href="#" target="_blank">Презентация</a>
+                    <a class="footer__link" href="#" target="_blank">Фото Блог</a>
+                </nav>
+                <p class="footer__copyright">&copy;
+
+                    <script language="javascript" type="text/javascript">
+                        const c = new Date();
+                        document.write(c.getFullYear());
+                    </script> Цветметаллресурс
+                </p>
+            </div>
         </footer>
 
         <div class="popup">
             <div class="popup__container">
-              <button class="popup__close"></button>
-              <h2 class="popup__title">Утилизация</h2>
-              <iframe class="popup__doc" src="ссылка файла pdf" width="700" height="400"></iframe>
-              <!-- <form name="popup-form" class="form popup__content" novalidate>
+                <button class="popup__close"></button>
+                <h2 class="popup__title">Утилизация</h2>
+                <!-- <iframe class="popup__doc" src="ссылка файла pdf" width="700" height="400"></iframe> -->
+                <!-- <form name="popup-form" class="form popup__content" novalidate>
                 <input name="name" id="name" type="text" class="form__input popup__text popup__text_type_name" required
                   minlength="2" maxlength="40" placeholder="Имя" autocomplete="off">
                 <span id="name-error" class="form__error"></span>
@@ -218,7 +231,7 @@
                 <button type="submit" class="form__submit popup__save popup__save_action_add">Сохранить</button>
               </form> -->
             </div>
-          </div>
+        </div>
 
     </div>
 

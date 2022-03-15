@@ -28,6 +28,7 @@
 @import url(../blocks/services/__heading/services__heading.css);
 @import url(../blocks/services/__subheading/services__subheading.css);
 @import url(../blocks/services/__item/services__item.css);
+@import url(../blocks/services/__item-block/services__item-block.css);
 @import url(../blocks/services/__items/services__items.css);
 @import url(../blocks/services/__item-img/services__item-img.css);
 @import url(../blocks/services/__item-text/services__item-text.css);
