@@ -6,25 +6,23 @@
     margin: 0 auto;
     filter: brightness(0.9) contrast(95%);
 }
-.cover__iframe iframe,
+/* .cover__iframe iframe,
 .cover__iframe object,
 .cover__iframe embed {
     overflow: hidden;
     position: relative;
-    /* height: 100%; */
-    /* min-width: 80%; */
     margin: 0 auto;
 }
 @media screen and (max-width: 850px) {
     .cover__iframe {   
-      /* min-height:460px; */
+      
       width: 90%;    
     }
 }
  
 @media screen and (max-width: 400px) {
     .cover__iframe {   
-      /* min-height:240px; */
+      
       width: 70%;   
     }
-}
+} */
