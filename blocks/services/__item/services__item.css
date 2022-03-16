@@ -2,9 +2,8 @@
   box-shadow: 0px 13px 19px rgb(0 0 0 / 30%);
   background: rgb(60, 61, 63, 1);
   padding: 15px 15px;
-  flex: 0 1 25%;
+  flex: 0 1 auto;
   min-height: 185px;
-  margin: 0px 10px 10px;
 }
 
 .services__item:last-child {

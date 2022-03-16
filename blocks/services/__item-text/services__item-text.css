@@ -1,6 +1,6 @@
 .services__item-text {
     font-size: 16px;
-    margin: 0px;
+    margin: 0;
 }
 
 @media all and (max-width: 850px) {
