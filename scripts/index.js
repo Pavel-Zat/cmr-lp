@@ -10,7 +10,7 @@ function openPopup(popup) {
 }
 function closePopup(popup) {
     popup.classList.remove('popup_is-opened')
-    removePopupEventListener(popup);
+    //removePopupEventListener(popup);
 }
 
 function setPopupEventListener(popup) {
@@ -36,6 +36,14 @@ function closePopupByEscape(event) {
         closePopup(openPopup);
     }
 }
+
+function renderOpenPopupImg(event) {
+  popupImage.src = event.target.src;
+  popupImage.alt = event.target.alt;
+  popupImgText.textContent = event.target.alt;
+  openPopup(popupImgElement);
+}
+
 //слушатели событий popup
 popupOpenButtonElement.addEventListener('click', () => {
     openPopup(popupElement);
