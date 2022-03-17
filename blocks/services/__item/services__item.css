@@ -6,10 +6,10 @@
   min-height: 185px;
 }
 
-.services__item:last-child {
+/* .services__item:last-child {
   background-color: #0d5c63;
   color: black;
-}
+} */
 
 @media (max-width: 1024px) {
   .services__item {

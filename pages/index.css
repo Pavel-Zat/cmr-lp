@@ -34,6 +34,7 @@
 @import url(../blocks/services/__item-text/services__item-text.css);
 @import url(../blocks/services/__item-title/services__item-title.css);
 @import url(../blocks/services/__button/services__button.css);
+@import url(../blocks/services/__item/_green/services__item_green.css);
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__container/feedback__container.css);
 @import url(../blocks/feedback/__heading/feedback__heading.css);
@@ -56,3 +57,5 @@
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/_is-opened/popup_is-opened.css);
 @import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup-demolition/popup-demolition.css);
+@import url(../blocks/popup-removal/popup-removal.css);

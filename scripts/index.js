@@ -1,11 +1,17 @@
 //переменные для popup
 const popupOpenButtonElement = document.querySelector('.services__button');
 const popupElement = document.querySelector('.popup');
+const popupElements = document.querySelectorAll('.popup');
 const popupCloseButtonElement = popupElement.querySelector('.popup__close');
+
+console.log(popupElements);
 
 //функции открытия и закрытия popup
 function openPopup(popup) {
-    popup.classList.add('popup_is-opened');
+    //popupElements.forEach((el) => {
+        popup.classList.add('popup_is-opened');
+    //});
+    
     setPopupEventListener(popup);
 }
 function closePopup(popup) {
@@ -37,17 +43,18 @@ function closePopupByEscape(event) {
     }
 }
 
-function renderOpenPopupImg(event) {
-  popupImage.src = event.target.src;
-  popupImage.alt = event.target.alt;
-  popupImgText.textContent = event.target.alt;
-  openPopup(popupImgElement);
-}
+// function renderOpenPopupImg(event) {
+//   popupImage.src = event.target.src;
+//   popupImage.alt = event.target.alt;
+//   popupImgText.textContent = event.target.alt;
+//   openPopup(popupImgElement);
+// }
 
 //слушатели событий popup
 popupOpenButtonElement.addEventListener('click', () => {
-    openPopup(popupElement);
-
+    
+        openPopup(popupElement);
+   
 
 });
 popupCloseButtonElement.addEventListener('click', () => {
