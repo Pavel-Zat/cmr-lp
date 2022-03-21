@@ -1,8 +1,19 @@
 //переменные для popup
 const popupOpenButtonElement = document.querySelector('.services__button');
+const popupOpenButtonRemoval = document.querySelector('.services__button-removal');
+const popupOpenButtonDemolition = document.querySelector('.services__button-demolition');
+
 const popupElement = document.querySelector('.popup');
+const popupElementRemoval = document.querySelector('.popup-removal');
+const popupElementDemolition = document.querySelector('.popup-demolition');
+
 const popupElements = document.querySelectorAll('.popup');
+
+
 const popupCloseButtonElement = popupElement.querySelector('.popup__close');
+const popupCloseButtonRemoval = popupElement.querySelector('.popup__close-removal');
+const popupCloseButtonDemolition = popupElement.querySelector('.popup__close-demolition');
+
 
 console.log(popupElements);
 
@@ -52,11 +63,17 @@ function closePopupByEscape(event) {
 
 //слушатели событий popup
 popupOpenButtonElement.addEventListener('click', () => {
-    
-        openPopup(popupElement);
-   
-
+    openPopup(popupElement);
 });
+
+popupOpenButtonRemoval.addEventListener('click', () => {
+    openPopup(popupElementRemoval);
+});
+
+popupOpenButtonDemolition.addEventListener('click', () => {
+    openPopup(popupElementDemolition);
+});
+
 popupCloseButtonElement.addEventListener('click', () => {
     closePopup(popupElement);
 });
