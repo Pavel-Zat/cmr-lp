@@ -57,5 +57,7 @@
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/_is-opened/popup_is-opened.css);
 @import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__close-demolition/popup__close-demolition.css);
+@import url(../blocks/popup-removal/popup-removal.css);
 @import url(../blocks/popup-demolition/popup-demolition.css);
 @import url(../blocks/popup-removal/popup-removal.css);

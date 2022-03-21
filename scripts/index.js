@@ -11,8 +11,8 @@ const popupElements = document.querySelectorAll('.popup');
 
 
 const popupCloseButtonElement = popupElement.querySelector('.popup__close');
-const popupCloseButtonRemoval = popupElement.querySelector('.popup__close-removal');
-const popupCloseButtonDemolition = popupElement.querySelector('.popup__close-demolition');
+const popupCloseButtonRemoval = document.querySelector('.popup__close-removal');
+const popupCloseButtonDemolition = document.querySelector('.popup__close-demolition');
 
 
 console.log(popupElements);
@@ -76,4 +76,12 @@ popupOpenButtonDemolition.addEventListener('click', () => {
 
 popupCloseButtonElement.addEventListener('click', () => {
     closePopup(popupElement);
+});
+
+popupCloseButtonRemoval.addEventListener('click', () => {
+    closePopup(popupElementRemoval);
+});
+
+popupCloseButtonDemolition.addEventListener('click', () => {
+    closePopup(popupElementDemolition);
 });
