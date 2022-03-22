@@ -61,3 +61,6 @@
 @import url(../blocks/popup-removal/popup-removal.css);
 @import url(../blocks/popup-demolition/popup-demolition.css);
 @import url(../blocks/popup-removal/popup-removal.css);
+@import url(../blocks/requisites/requisites.css);
+@import url(../blocks/requisites/__container/requisites__container.css);
+@import url(../blocks/requisites/__table/requisites__table.css);

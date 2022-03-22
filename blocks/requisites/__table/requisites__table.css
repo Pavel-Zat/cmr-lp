@@ -1,0 +1,11 @@
+.requisites__table {
+    padding: 40px 20px 20px;
+    margin: auto;
+}
+.requisites__table th{
+    font-size: 34px;
+    padding: 20px 20px;
+}
+.requisites__table td{
+    padding: 5px 10px 5px 0px;
+}
