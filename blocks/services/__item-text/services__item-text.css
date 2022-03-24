@@ -8,3 +8,8 @@
       font-size: 14px;
     }
   }
+  @media all and (max-width: 850px) {
+    .services__item-text {
+      font-size: 12px;
+    }
+  }
