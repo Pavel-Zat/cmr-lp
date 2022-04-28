@@ -5,6 +5,6 @@
     margin: 0;
 }
 .feedback__title:hover {
-    transform: scale(1.12);
+    transform: scale(1.05);
     color: #ff7b47;
 }
