@@ -1,10 +1,11 @@
 .feedback__title {
     text-decoration: none;
-    color: whitesmoke;
-    transition: 0.25s;
+    color: #ff7b47;
+    font-size: 22px;
+    /* transition: 0.25s; */
     margin: 0;
 }
-.feedback__title:hover {
+/* .feedback__title:hover {
     transform: scale(1.05);
     color: #ff7b47;
-}
+} */

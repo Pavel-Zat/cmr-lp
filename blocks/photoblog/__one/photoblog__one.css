@@ -1,0 +1,6 @@
+.photoblog__one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 16px;
+}

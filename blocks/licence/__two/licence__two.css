@@ -1,0 +1,6 @@
+.licence__two {
+    display: flex;
+    margin: 30px 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}

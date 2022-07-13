@@ -65,3 +65,15 @@
 @import url(../blocks/requisites/__container/requisites__container.css);
 @import url(../blocks/requisites/__table/requisites__table.css);
 @import url(../blocks/ticker/ticker.css);
+@import url(../blocks/licence/licence.css);
+@import url(../blocks/licence/__one-pic/licence__one-pic.css);
+@import url(../blocks/licence/__one/licence__one.css);
+@import url(../blocks/licence/__two-pic/licence__two-pic.css);
+@import url(../blocks/licence/__two/licence__two.css);
+@import url(../blocks/photoblog/photoblog.css);
+@import url(../blocks/photoblog/__one/photoblog__one.css);
+@import url(../blocks/photoblog/__one-pic/photoblog__one-pic.css);
+@import url(../blocks/photoblog/__heading/photoblog__heading.css);
+@import url(../blocks/photoblog/__subheading/photoblog__subheading.css);
+@import url(../blocks/photoblog/__paragraph/photoblog__paragraph.css);
+@import url(../blocks/photoblog/__card/photoblog__card.css);

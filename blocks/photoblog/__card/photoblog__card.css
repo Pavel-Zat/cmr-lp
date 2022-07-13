@@ -1,0 +1,9 @@
+.photoblog__card {
+    display: flex;
+    flex-direction: column;
+}
+@media all and (max-width: 768px) {
+    .photoblog__card {
+       align-items: center;
+    }
+  }

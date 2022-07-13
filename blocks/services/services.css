@@ -1,3 +1,8 @@
 .services {
     margin-bottom: 60px;
 }
+@media (max-width: 608px) {
+    .services {
+        margin-bottom: 30px;
+    }
+  }

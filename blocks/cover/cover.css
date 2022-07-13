@@ -29,5 +29,5 @@
 }
 
 .cover:hover::before {
-  opacity: 0.3;
+  opacity: 0.6;
 }

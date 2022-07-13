@@ -1,7 +1,7 @@
 .footer__link {
   color: #ffffff;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 20px;
   font-weight: normal;
   /* max-width: 50px; */
   /*min-height: 18px;*/
@@ -15,14 +15,14 @@
 }
 
 .footer__link:first-child:hover {
-    color: whitesmoke;
-    /* opacity: 0.9; */
-  }
+  color: whitesmoke;
+  /* opacity: 0.9; */
+}
 
 .footer__link:hover {
-    color: #ff7b47;
-    /* opacity: 0.9; */
-  }
+  color: #ff7b47;
+  /* opacity: 0.9; */
+}
 
 @media all and (max-width: 767px) {
   .footer__link {

@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap">
@@ -105,8 +106,9 @@
                     <div class="cover__map">
                         <p class="cover__address">Химки, Коммунальный проезд, 16</p>
                         <div class="cover__iframe">
-                            <iframe src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=1628826794" width="100%"
-                                height="250" frameborder="">
+                            <iframe
+                                src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa9cc8d76d8b3d3559e2dd8a5fcdaf1f733e708fd7dfa1e6d2df3d9ca92a3dc4c&amp;source=constructor"
+                                width="100%" height="250" frameborder="0"></iframe>
                             </iframe>
                         </div>
                     </div>
@@ -115,9 +117,11 @@
 
             <section class="ticker">
                 <span>
-                    lorem ipsum Ea tempora cumque rerum iure.
+                    - полный пакет документов о приеме лома для юрлиц -
                 </span>
+
             </section>
+
 
             <section class="services">
                 <div class="services__container">
@@ -128,7 +132,7 @@
                         <div class="services__item-block">
                             <div class="services__item">
                                 <button class="services__button" type="button"><img class="services__item-img"
-                                        src="./images/шестерня_иконка_small.svg"></button>
+                                        src="./images/шестерня_иконка_small.svg" alt="шестерёнка"></button>
                                 <h4 class="services__item-title">Утилизация промышленного оборудования</h4>
                                 <p class="services__item-text">Возможность быстро и без лишних затрат избавиться от
                                     ненужных активов.
@@ -138,7 +142,8 @@
                         <div class="services__item-block">
                             <div class="services__item">
                                 <button class="services__button services__button-removal" type="button"><img
-                                        class="services__item-img" src="./images/шестерня_иконка_small.svg"></button>
+                                        class="services__item-img" src="./images/шестерня_иконка_small.svg"
+                                        alt="шестерёнка"></button>
                                 <h4 class="services__item-title">Вывоз лома черных и цветных металлов</h4>
                                 <p class="services__item-text">Aктуальная проблема для многих предприятий.
                                 </p>
@@ -149,7 +154,7 @@
                                 <button
                                     class="services__button services__button-demolition services__button_another-color"
                                     type="button"><img class="services__item-img"
-                                        src="./images/шестерня_иконка_small.svg"></button>
+                                        src="./images/шестерня_иконка_small.svg" alt="шестерёнка"></button>
                                 <h4 class="services__item-title">Демонтаж зданий и сооружений</h4>
                                 <p class="services__item-text">Работы по разборке металлических сооружений и частей
                                     зданий.
@@ -172,32 +177,35 @@
                     <div class="feedback__cards">
                         <div class="feedback__card-block">
                             <div class="feedback__card">
-                                <a href="#" class="feedback__link">
-                                    <h3 class="feedback__title">Аэрофлот</h3>
-                                </a>
+                                <!-- <a href="#" class="feedback__link"> -->
+                                <h3 class="feedback__title">Аэрофлот</h3>
+                                <!-- </a> -->
                                 <p class="feedback__text">Успешно реализованы проекты по демонтажу и утилизации
                                     конструкций из алюминия и ч/м МАШ.</p>
-                                <img class="feedback__picture" src="./images/feedback/1.jpg">
+                                <img class="feedback__picture" src="./images/feedback/1.jpg"
+                                    alt="изображение работы за компьютером">
                             </div>
                         </div>
                         <div class="feedback__card-block">
                             <div class="feedback__card">
-                                <a href="#" class="feedback__link">
-                                    <h3 class="feedback__title">ИКЕА</h3>
-                                </a>
+                                <!-- <a href="#" class="feedback__link"> -->
+                                <h3 class="feedback__title">ИКЕА</h3>
+                                <!-- </a> -->
                                 <p class="feedback__text">Утилизируем различные металлосодержащие отходы в соответствии
                                     с договором по настоящее время.</p>
-                                <img class="feedback__picture" src="./images/feedback/2.jpg">
+                                <img class="feedback__picture" src="./images/feedback/2.jpg"
+                                    alt="изображение деловой встречи">
                             </div>
                         </div>
                         <div class="feedback__card-block">
                             <div class="feedback__card">
-                                <a href="#" class="feedback__link">
-                                    <h3 class="feedback__title">Star Project</h3>
-                                </a>
+                                <!-- <a href="#" class="feedback__link"> -->
+                                <h3 class="feedback__title">Star Project</h3>
+                                <!-- </a> -->
                                 <p class="feedback__text">Длительное взаимовыгодное сотрудничество по разборке,
                                     демонтажу конструкций и вывозу металлолома.</p>
-                                <img class="feedback__picture" src="./images/feedback/3.jpg">
+                                <img class="feedback__picture" src="./images/feedback/3.jpg"
+                                    alt="изображение работы с документами">
                             </div>
                         </div>
                     </div>
@@ -209,10 +217,11 @@
             <div class="footer__container">
                 <nav class="footer__nav">
                     <a class="footer__link" href="../cmr-lp/requisites.html" target="_blank">Реквизиты</a>
-                    <a class="footer__link" href="#" target="_blank">Лицензии</a>
-                    <a class="footer__link" href="#" target="_blank">Документы</a>
-                    <a class="footer__link" href="#" target="_blank">Презентация</a>
+                    <a class="footer__link" href="../cmr-lp/licenses.html" target="_blank">Лицензии</a>
                     <a class="footer__link" href="#" target="_blank">Фото Блог</a>
+                    <!-- <a class="footer__link" href="../cmr-lp/informer.html" target="_blank">Информер</a> -->
+                    <a class="footer__link" href="#" target="_blank">Обратная Связь</a>
+                    
                 </nav>
                 <p class="footer__copyright">&copy;
 
@@ -228,13 +237,14 @@
             <div class="popup__container">
                 <button class="popup__close"></button>
                 <h2 class="popup__title">Утилизация промышленного оборудования</h2>
-                <p class="popup__text">Весь процесс утилизации мы возьмем на себя.<br>
-                    Проведем техническую экспертизу оборудования, предназначенного на переработку;<br>
-                    Составим акт списания;<br>
-                    Осуществим разбор оргтехники на составные компоненты на собственной базе;<br>
-                    Пустим в переработку все металлосодержащие элементы;<br>
-                    Предоставим необходимый пакет документов.
-                </p>
+                <ul class="popup__text">
+                    <li>Весь процесс утилизации мы возьмем на себя:</li>
+                    <li>Проведем техническую экспертизу оборудования, предназначенного на переработку;</li>
+                    <li>Составим акт списания;</li>
+                    <li>Осуществим разбор оргтехники на составные компоненты на собственной базе;</li>
+                    <li>Пустим в переработку все металлосодержащие элементы;</li>
+                    <li>Предоставим необходимый пакет документов.</li>
+                </ul>
                 <!-- <iframe class="popup__doc" src="ссылка файла pdf" width="700" height="400"></iframe> -->
                 <!-- <form name="popup-form" class="form popup__content" novalidate>
                 <input name="name" id="name" type="text" class="form__input popup__text popup__text_type_name" required
@@ -252,18 +262,19 @@
             <div class="popup__container">
                 <button class="popup__close popup__close-removal"></button>
                 <h2 class="popup__title">Вывоз лома черных и цветных металлов</h2>
-                <p class="popup__text">Избавление от ненужных металлоконструкций, оборудования или отходов производства
-                    связано
-                    с целым рядом трудностей:<br>
-                    Демонтаж объектов на части, пригодные к транспортировке;<br>
-                    Сортировка металла;<br>
-                    Подготовка сопутствующих документов;<br>
-                    Наем техники и рабочих для погрузки;<br>
-                    Доставка в пункт приема, сдача лома.<br>
-                    Наши специалисты возьмут на себя все от демонтажа до погрузки. Вам не надо нанимать дополнительный
-                    персонал или отрывать
-                    своих сотрудников от работы. Если у Вас есть ненужный черный металл или цветной – мы обеспечим
-                    самовывоз.</p>
+                <ul class="popup__text">
+                    <li>Избавление от ненужных металлоконструкций, оборудования или отходов производства
+                    связано с целым рядом трудностей;</li>
+                    <li>Демонтаж объектов на части, пригодные к транспортировке;</li>
+                    <li>Сортировка металла;</li>
+                    <li>Подготовка сопутствующих документов;</li>
+                    <li>Наем техники и рабочих для погрузки;</li>
+                    <li>Доставка в пункт приема, сдача лома;</li>
+                    <li>Наши специалисты возьмут на себя все от демонтажа до погрузки. Вам не надо нанимать дополнительный
+                    персонал или отрывать своих сотрудников от работы. Если у Вас есть ненужный черный металл или
+                    цветной – мы обеспечим
+                    самовывоз.</li>
+                </ul>
                 <!-- <iframe class="popup__doc" src="ссылка файла pdf" width="700" height="400"></iframe> -->
                 <!-- <form name="popup-form" class="form popup__content" novalidate>
                 <input name="name" id="name" type="text" class="form__input popup__text popup__text_type_name" required

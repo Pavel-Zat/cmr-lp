@@ -1,9 +1,10 @@
 .services__item-img {
   width: 30px;
+  animation: move 1.25s infinite linear;
 }
 .services__item-img:hover {
   cursor: pointer;
-  animation: move 1.25s infinite linear;
+  /* animation: move 1.25s infinite linear; */
 }
 @keyframes move {
   0% {
