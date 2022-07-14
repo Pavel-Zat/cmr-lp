@@ -3,3 +3,10 @@
   background-image: url(../../images/rust.jpg);
   background-blend-mode: soft-light;
 }
+@media screen and (max-width: 785px) {
+  .header {   
+    padding-top: 10px;
+    /* max-height: 65px;     */
+  }
+}
+
