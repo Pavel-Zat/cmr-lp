@@ -1,4 +1,9 @@
 .email__address {
     font-size: 22px;
     color: #F5F5F5;
+    transition: 0.5s linear;
 }
+.email__address:hover {
+    color: #ff7b47;    
+}
+
