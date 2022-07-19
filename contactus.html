@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,22 +10,28 @@
     <title>Contact US</title>
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="shortcut icon" href="./images/favicon.ico">
+
     <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
- 
-    ym(89215556, "init", {
-         clickmap:true,
-         trackLinks:true,
-         accurateTrackBounce:true,
-         webvisor:true
-    });
- </script>
- <noscript><div><img src="https://mc.yandex.ru/watch/89215556" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
- <!-- /Yandex.Metrika counter -->
+    <!-- <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(89215556, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/89215556" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript> -->
+    <!-- /Yandex.Metrika counter -->
 </head>
+
 <body style="margin: 0px; background-color: #2a2c2f;">
 
     <div class="page">
@@ -50,9 +57,69 @@
 
             <section class="email">
 
-                <a class="email__address" href = "mailto: info@cvetmetres.ru">info@cvetmetres.ru</a>
+                <a class="email__address" href="mailto: info@cvetmetres.ru">info@cvetmetres.ru</a>
 
-            </section>            
+            </section>
+
+
+            <!-- форма от http://cleanjs.ru/articles/validaciya-formy-obratnoj-svyazi.html -->
+
+            <form name="feedback" method="POST">
+                <ul class="form-list">
+                    <li>
+                        <label>Ваше имя:</label>
+                        <div>
+                            <input class="form-control" type="text" name="username" maxlength="30" value="">
+                        </div>
+                        <span class="error"></span>
+                    </li>
+                    <li>
+                        <label>Электронная почта:</label>
+                        <div>
+                            <input class="form-control" type="text" name="usermail" maxlength="50" value="">
+                        </div>
+                        <span class="error"></span>
+                    </li>
+                    <li>
+                        <label>Тема сообщения:</label>
+                        <div>
+                            <input class="form-control" type="text" name="subject" maxlength="50" value="">
+                        </div>
+                        <span class="error"></span>
+                    </li>
+                    <li>
+                        <label>Текст сообщения:</label>
+                        <div>
+                            <textarea class="form-control" name="textmess"></textarea>
+                        </div>
+                        <span class="error"></span>
+                    </li>
+                    <li>
+                        <label></label>
+                        <div>
+                            <button id="send_mess" type="submit">отправить сообщение</button>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+
+            <!-- форма из моей работы Mesto -->
+            <!-- <section class="contact-form">
+
+                <form name="form" class="form" validate>
+                    <input name="name" id="name" type="text" class="form__input form__text form__text_type_name"
+                        required minlength="2" maxlength="40" placeholder="Имя" autocomplete="off">
+                    <span id="name-error" class="form__error"></span>
+                    <input name="job" id="job" type="text" class="form__input popup__text popup__text_type_job" required
+                        minlength="2" maxlength="200" placeholder="О себе" autocomplete="off">
+                    <span id="job-error" class="form__error"></span>
+                    <button type="submit" class="form__submit popup__save popup__save_action_add">Сохранить</button>
+                </form>
+
+            </section> -->
+
+
+
 
             <section class="ticker">
                 <span>
@@ -64,12 +131,12 @@
                     - this is a page in progress -
                 </span>
             </section> -->
-            
+
         </main>
 
         <footer class="footer page__footer">
             <div class="footer__container">
-                
+
                 <p class="footer__copyright">&copy;
 
                     <script language="javascript" type="text/javascript">
@@ -80,6 +147,7 @@
             </div>
         </footer>
     </div>
-    
+
 </body>
+
 </html>
