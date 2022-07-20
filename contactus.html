@@ -7,29 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap">
-    <title>Contact US</title>
+    <title>Обратная связь</title>
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="shortcut icon" href="./images/favicon.ico">
 
-    <!-- Yandex.Metrika counter -->
-    <!-- <script type="text/javascript">
-        (function (m, e, t, r, i, k, a) {
-            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
-            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-        })
-            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(89215556, "init", {
-            clickmap: true,
-            trackLinks: true,
-            accurateTrackBounce: true,
-            webvisor: true
-        });
-    </script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/89215556" style="position:absolute; left:-9999px;" alt="" /></div>
-    </noscript> -->
-    <!-- /Yandex.Metrika counter -->
 </head>
 
 <body style="margin: 0px; background-color: #2a2c2f;">
@@ -53,7 +34,7 @@
             </div>
         </header>
 
-        <main class="content__contactus" style="margin: 60px auto 0px;">
+        <main class="content content__contactus" style="margin: 60px auto 0px;">
 
             <section class="email">
 
@@ -61,10 +42,23 @@
 
             </section>
 
+            <section class="feedback-form">
+
+                <form method="post" name="contact_form" action="./contact-form-handler.php">
+                    Your Name:
+                    <input type="text" name="name">
+                    Email Address:
+                    <input type="text" name="email">
+                    Message:
+                    <textarea name="message"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+
+            </section>
+
 
             <!-- форма от http://cleanjs.ru/articles/validaciya-formy-obratnoj-svyazi.html -->
-
-            <form name="feedback" method="POST">
+            <!-- <form name="feedback" method="POST">
                 <ul class="form-list">
                     <li>
                         <label>Ваше имя:</label>
@@ -101,7 +95,7 @@
                         </div>
                     </li>
                 </ul>
-            </form>
+            </form> -->
 
             <!-- форма из моей работы Mesto -->
             <!-- <section class="contact-form">
@@ -147,6 +141,14 @@
             </div>
         </footer>
     </div>
+
+    <!-- <script language="JavaScript">
+        var frmvalidator = new Validator("contactform");
+        frmvalidator.addValidation("name", "req", "Please provide your name");
+        frmvalidator.addValidation("email", "req", "Please provide your email");
+        frmvalidator.addValidation("email", "email",
+            "Please enter a valid email address");
+    </script> -->
 
 </body>
 
