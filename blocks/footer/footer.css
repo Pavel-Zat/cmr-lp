@@ -1,22 +1,35 @@
 .footer {
-  padding-top: 110px;
+  padding-top: 24px;
   padding-bottom: 24px;
 }
 
 @media all and (max-width: 1279px) {
   .footer {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #2a2c2f;
+    opacity: 0.9;
+    width: 100%;
     /* padding-left: 48px;
     padding-right: 48px; */
   }
 }
 @media all and (max-width: 1023px) {
   .footer {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #2a2c2f;
+    opacity: 0.9;
+    width: 100%;
     /* max-width: 768px;
     padding: 88px 24px 24px 24px; */
   }
 }
 @media all and (max-width: 767px) {
   .footer {
+    position: relative;
     max-width: 320px;
     display: block;
     padding: 0;
