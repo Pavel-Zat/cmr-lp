@@ -2,4 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 158px;
 }
+@media all and (max-width: 767px) {
+    .feedback__cards {
+      margin-bottom: 0;
+    }
+  }
